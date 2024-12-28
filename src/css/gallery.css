@@ -1,0 +1,15 @@
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: calc(3 * (372px + 24px) - 24px);
+    margin: 0 auto;
+    position: relative;
+  }
+  .gallery-image {
+    max-width: 360px;
+    width: calc((100% - (24px * 2) / 3));
+    position: relative;
+  }

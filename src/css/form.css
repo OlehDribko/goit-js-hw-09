@@ -1,0 +1,48 @@
+.container{
+    width: 408px;
+}
+.feedback-form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form-element{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: start;
+    align-items: start;
+    
+}
+.btn-container{
+    width: 360px; 
+}
+.form-input-email{
+    width: 360px;
+    height: 40px;
+    border-color: #808080;
+    border-radius: 4px;
+}
+.form-input-mess{
+    width: 360px;
+    height: 72px;
+    border-color: #808080;
+    border-radius: 4px;
+}
+.submit-form{
+    display: block;
+    margin-top: 8px;
+    width: 95px;
+    height: 40px;
+    background-color: #4E75FF;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: 0;
+}
+.submit-form:hover{
+background-color: #6C8CFF;
+}

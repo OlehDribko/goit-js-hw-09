@@ -16,3 +16,8 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+/* Form style */
+@import url('./form.css');
+@import "simplelightbox/dist/simple-lightbox.min.css";
+@import url('./gallery.css');
