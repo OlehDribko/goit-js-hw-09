@@ -40,6 +40,9 @@ const feedbackFormSubmit = event => {
   const { currentTarget: formEl } = event;
   formEl.reset();
   localStorage.removeItem('feedback-form-state');
+  console.log(formData);
+  formData = { email: '', message: '' };
+
 };
 
 feedbackFormEl.addEventListener('input', onFormChange);
